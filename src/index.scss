@@ -1,0 +1,37 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #37474f;
+}
+
+.ErrorPage,
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #37474f;
+  h1 {
+    color: #ff8800;
+  }
+  h2 {
+    color: #cc0000;
+  }
+}
+
+.Form {
+  position: fixed;
+}
